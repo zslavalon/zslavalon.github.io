@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#99CCCC;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    width: 80%;
+    border: 1px;
+    box-shadow: 0 0 8px gray;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius:8px;
+}
+#home{
+    left: 16%;
+    z-index: 15;
+    background:#6699CC;
+}
+.label_h{
+    background: #6699CC;
+    border: 1px solid#6699CC;
+    width: 2%;
+    height: 8%;
+    position: absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+#edu{
+    left: 14%;
+    top: -1%;
+    z-index: 14;
+    background: #CCCCFF ;
+}
+.label_e{
+    background:  #CCCCFF ;
+    border: 1px solid #CCCCFF;
+    width: 2%;
+    height: 8%;
+    position: absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+#skill{
+    left: 12%;
+    top: -2%;
+    z-index: 13;
+    background: #FFFFFF;
+}
+.label_s{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 2%;
+    height: 8%;
+    position: absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+#language{
+    left: 10%;
+    top: -3%;
+    z-index: 12;
+    background: #CCFF99;
+}
+.label_l{
+    background: #CCFF99;
+    border: 1px solid  #CCFF99;
+    width: 2%;
+    height: 8%;
+    position: absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+#project{
+    left: 8%;
+    top: -4%;
+    z-index: 11;
+    background: #6699CC;
+}
+.label_p{
+    background: #6699CC;
+    border: 1px solid #6699CC;
+    width: 2%;
+    height: 8%;
+    position: absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+#interest{
+    left: 6%;
+    top: -5%;
+    z-index: 10;
+    background: #CCCCFF;
+}
+.label_i{
+    background:  #CCCCFF;
+    border: 1px solid  #CCCCFF;
+    width: 2%;
+    height: 8%;
+    position:absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+#more{
+    left: 4%;
+    top: -6%;
+    z-index: 9;
+    background: #fFF;
+}
+.label_m{
+    background: #fFF;
+    border: 1px solid #fFF;
+    width: 2%;
+    height: 8%;
+    position: absolute;
+    margin-left: -2%;
+    font-size: 1.2em;
+    top: 63%;
+    border-radius: 8px 0 0 8px;
+}
+.home_img{
+    border-radius: 100%;
+    border: 3px white;
+    margin-left: 43%;
+    margin-top: 9%;
+}
+.home_00{
+    font-family: "¡• È";
+    font-size: 3em;
+    color: #CCFF99;
+    margin-top: 3%;
+    margin-left: 42%;
+}
+.home_01{
+    font-family: "ø¨ÃÂ";
+    margin-left: 30%;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+.home_02{
+    font-size: 1.6em;
+    margin-left: 31%;
+    color: #644b9d;
+}
+.home_02:hover{
+    color: red;
+}
+
+.edu_00{
+    color: #333333;
+    margin-top: 10%;
+    text-align:center
+}
+.edu_01{
+    margin-top: 4%;
+    /*margin-left: 42%;*/
+    font-size: 1.5em;
+    text-align:center
+}
+.edu_02{
+    width: 100%;
+    text-align:center;
+    margin-top:3%;
+}
+
+.skill_0{
+    color: #333333;
+    margin-top: 10%;
+    text-align:center
+}
+.skill_2{
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.skill_21,.skill_22,.skill_23 {
+    border: 1px solid#008080;
+    background: antiquewhite;
+    border-radius: 5px;
+    padding: 9px;
+    margin-left: 2%;
+}
+.skill_21{opacity: 0.8}
+.skill_22{opacity: 0.7}
+.skill_23{opacity: 0.4}
+
+.int_2{
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    color: #666699;
+}
+.more_img{
+    position: absolute;
+    top: 33%;
+    left: 60%;
+}
+.p01{
+    position: absolute;
+    left: 5%;
+    -moz-transform:rotate(5deg); /* Firefox */
+    -webkit-transform:rotate(5deg);
+    top: 51%;
+}
+.p02{
+    position: absolute;
+    left: 73%;
+    -moz-transform:rotate(20deg); /* Firefox */
+    -webkit-transform:rotate(20deg);
+    top: 45%;
+}
