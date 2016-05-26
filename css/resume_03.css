@@ -144,6 +144,13 @@ body{
     margin: 0 auto;
     margin-top: 9%;
 }
+.twoDma{
+    float: right;
+    margin-top: -10%;
+    margin-right: 4%;
+    width: 15%;
+    height: 27%;
+}
 .home_00{
     font-family: "隶书";
     font-size: 3em;
@@ -167,7 +174,11 @@ body{
 .home_02:hover{
     color: red;
 }
-
+.home_03{
+    margin-top: -14%;
+    right: 5%;
+    position: absolute;
+}
 .edu_00{
     color: #333333;
     margin-top: 10%;
